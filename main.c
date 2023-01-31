@@ -26,7 +26,7 @@ void draw(void *u,int w,int h){
         for (int x = 0; x < w; ++x) {
             printf(world[y][x] ? "+" : ".");
         }
-        printf("\n");
+     printf("\n");
     }
 }
 
